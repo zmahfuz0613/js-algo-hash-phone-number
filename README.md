@@ -4,7 +4,7 @@
 
 ### Objectives
 
-- Storing plain text phone numbers is never a good idea! Your algorithm should hash a phone number and only display the last 4 numbers.
+- Storing plain text phone numbers is never a good idea! Your algorithm should hash a phone number and only display the last 4 numbers. Everything else should become a `*`, the hyphens must remain in their respective places.
 - Feel free to use any methods you find useful!
 
 ## Getting Started
