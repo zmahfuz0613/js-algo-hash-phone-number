@@ -4,7 +4,10 @@
  * ' 111-223-1123 ' should be ' ***-***-1123 '
  */
 
-const encryptPhoneNumber = number => {}
+const encryptPhoneNumber = number => {
+  
+  return `***-***-${number.toString().split('-')[2]}`;
+}
 
 module.exports = encryptPhoneNumber
 
